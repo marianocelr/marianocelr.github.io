@@ -1,0 +1,42 @@
+/* prefacio */
+.out{
+  border: 1px dashed red;
+
+  height: 10em;
+  background-color: bisque;
+  display: table;
+  width: 100%;
+}
+
+.in{
+  border: 1px dotted red;
+  height: 10em;
+  background-color: aliceblue;
+}
+
+/* ejemplos */
+
+/* margen: del borde para afuera
+   borde
+   relleno: del borde para adentro
+   contenido
+ */
+
+.in{
+  /* 1: todos los lados
+     2: top-bottom left-right
+     4: top right bottom left
+  */
+  padding: 1em;
+  padding-top: 1em;
+  padding-right: 1em;
+  padding-bottom: 1em;
+  padding-left: 1em;
+  margin: 0.5em;
+  color: blue;
+}
+
+.out{
+  padding: 1em;
+  margin: 1em;
+}
